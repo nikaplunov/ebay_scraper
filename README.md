@@ -38,8 +38,8 @@ Gift cards have become a significant component of consumer spending, often regar
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/ebay-gift-card-scraper.git
-   cd ebay-gift-card-scraper
+   git clone https://github.com/your-username/ebay_scraper.git
+   cd ebay_scraper
    ```
 
 2. **Install Required Dependencies**:
