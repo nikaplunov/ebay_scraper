@@ -95,9 +95,6 @@ These objectives build upon existing literature, including the work by Lesley Ch
 
 - **Brand-Specific Filtering**: Introduce options to filter data collection based on specific gift card brands (e.g., Amazon, Walmart) for targeted analysis.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Acknowledgments
 
