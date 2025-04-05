@@ -57,13 +57,18 @@ Gift cards have become a significant component of consumer spending, often regar
 
 ## Usage Guide
 
-Execute the scraper script:
+▶️ Run the Scraper:
+Open the Ebay_scraper.ipynb notebook in Jupyter Notebook (or JupyterLab).
+
+Execute the notebook cells step-by-step.
+
+After running, the collected auction data will be saved to a file named:
 
 ```bash
-python ebay_gift_card_scraper.py
+ebay_gift_card_auctions.csv
 ```
 
-Upon completion, the collected auction data will be available in the `ebay_gift_card_auctions.csv` file for analysis.
+for your further analysis
 
 ## Research Objectives
 
