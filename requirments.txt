@@ -1,0 +1,6 @@
+# To run the scrapper install following packages
+pandas
+requests
+time
+
+use pip install <package name> 
