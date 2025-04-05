@@ -1,5 +1,3 @@
-# ebay_scraper
-eBay Gift Card Auction Scraper
 # eBay Gift Card Auction Scraper
 
 🔍 A Python project designed to collect live auction data for gift cards listed on eBay, utilizing the eBay Browse API and OAuth authentication. This tool facilitates market analysis by examining price dispersion, liquidity, and bidding behaviors over time.
