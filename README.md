@@ -2,18 +2,6 @@
 
 🔍 A Python project designed to collect live auction data for gift cards listed on eBay, utilizing the eBay Browse API and OAuth authentication. This tool facilitates market analysis by examining price dispersion, liquidity, and bidding behaviors over time.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Setup Instructions](#setup-instructions)
-- [Usage Guide](#usage-guide)
-- [Research Objectives](#research-objectives)
-- [Important Considerations](#important-considerations)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ## Project Overview
 
 Gift cards have become a significant component of consumer spending, often regarded as cash equivalents due to their direct monetary value. Understanding their secondary market dynamics, especially on platforms like eBay, provides valuable insights into consumer behavior and market efficiency. This project aims to shed light on these aspects by systematically collecting and analyzing auction data.
@@ -42,33 +30,13 @@ Gift cards have become a significant component of consumer spending, often regar
    cd ebay_scraper
    ```
 
-2. **Install Required Dependencies**:
-
-   ```bash
-   pip install requests pandas
-   ```
-
-3. **Obtain eBay OAuth Token**:
+2. **Obtain eBay OAuth Token**:
    - Register for the [eBay Developer Program](https://developer.ebay.com/).
    - Create an application to generate your OAuth access token.
 
-4. **Configure API Credentials**:
+3. **Configure API Credentials**:
    - Replace `"Your OAuth TOKEN"` in the script with your obtained OAuth access token.
 
-## Usage Guide
-
-▶️ Run the Scraper:
-Open the Ebay_scraper.ipynb notebook in Jupyter Notebook (or JupyterLab).
-
-Execute the notebook cells step-by-step.
-
-After running, the collected auction data will be saved to a file named:
-
-```bash
-ebay_gift_card_auctions.csv
-```
-
-for your further analysis
 
 ## Research Objectives
 
@@ -82,25 +50,3 @@ This project is designed to facilitate research into several key areas:
 
 These objectives build upon existing literature, including the work by Lesley Chiou and Jennifer Pate titled ["Internet Auctions and Frictionless Commerce: Evidence from the Retail Gift Card Market"](https://ideas.repec.org/a/kap/revind/v36y2010i3p295-304.html), which explores online auction dynamics for gift cards.
 
-## Important Considerations
-
-- **API Rate Limiting**: To comply with eBay's API usage policies, the script includes a `time.sleep(1)` delay between requests to prevent exceeding rate limits.
-
-- **Category Specification**: The scraper targets the Gift Cards category (Category ID: 172008) by default. Adjust this parameter if you wish to explore other categories.
-
-- **Token Validity**: Ensure your OAuth token is active and has not expired (tokens typically have a limited validity period).
-
-## Future Enhancements
-
-- **Automated Token Refresh**: Implement functionality to handle OAuth token expiration and renewal seamlessly.
-
-- **Data Cleaning and Validation**: Enhance data preprocessing to handle anomalies and ensure accuracy.
-
-- **Advanced Error Handling**: Develop robust mechanisms to manage potential API errors or data inconsistencies.
-
-- **Brand-Specific Filtering**: Introduce options to filter data collection based on specific gift card brands (e.g., Amazon, Walmart) for targeted analysis.
-
-
-## Acknowledgments
-
-Special thanks to researchers like Jennifer Pate Offenberg and Lesley Chiou for their contributions to understanding gift card markets and online auction behaviors, which have significantly informed the objectives of this project.
